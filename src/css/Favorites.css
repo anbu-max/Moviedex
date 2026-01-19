@@ -1,7 +1,30 @@
 .favorites {
-  padding: 18px;
-  width: 80%;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   box-sizing: border-box;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 2rem;
+}
+
+.favorites-grid .movie-card {
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.favorites-grid .movie-poster {
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .favorites h2 {

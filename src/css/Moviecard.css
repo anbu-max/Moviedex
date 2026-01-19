@@ -101,6 +101,47 @@
   font-size: 0.9rem;
 }
 
+.movie-info .movie-genre {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0.25rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.movie-info .movie-rating {
+  color: #facc15;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0.25rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.movie-info .movie-director {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0.25rem 0;
+  font-style: italic;
+}
+
+.movie-info .movie-plot {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin: 0.5rem 0 0 0;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .user-rating {
   color: #ffd700;
   font-size: 0.9rem;
